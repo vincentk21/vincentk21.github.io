@@ -23,7 +23,7 @@ const messages = [
   'help',
   'admin',
   'or-I-really-like-your-website',
-  'I\'ll-stop-distracting-you-now',
+  'Ill-stop-distracting-you-now',
   'thanks',
 ];
 
@@ -77,10 +77,7 @@ const EmailLink = () => {
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
     >
-      <a href={validateText(message) ? `mailto:${message}@mldangelo.com` : ''}>
-        <span>{message}</span>
-        <span>@mldangelo.com</span>
-      </a>
+      <p>vincent.kahlhamer@gmail.com</p>
     </div>
   );
 };
